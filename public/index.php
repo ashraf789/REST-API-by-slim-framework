@@ -92,15 +92,16 @@ $app = new \Slim\App;
 //     return $response; 
 // });
 
-// $app->get('/hello/{name}', function ($request, $response, $args) {
-//        $name = $args['name'];
-//     $response->getBody()->write("Hello there, $name");
 
-//     return $response; 
-// });
 
-require_once('./app/api/books.php');
-require_once('./app/api/user.php');
+require_once('./app/api/books/get.php');
+require_once('./app/api/books/post.php');
+require_once('./app/api/books/put.php');
+require_once('./app/api/books/delete.php');
+
+require_once('./app/api/practice/test.php');
+require_once('./app/api/practice/user.php');
+require_once('./app/api/practice/keyvaluecheck.php');
 
 $app->run();
 
