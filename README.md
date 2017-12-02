@@ -23,7 +23,7 @@ https://www.slimframework.com/
 http://localhost:8080/api/books
 </b>
 
-<img src="//https://imgur.com/Bdy0B0a.png" />
+<img src="https://imgur.com/Bdy0B0a.png" />
 
 <br>
 <br>
